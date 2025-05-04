@@ -50,7 +50,7 @@ ST 表基于 [倍增](../basic/binary-lifting.md) 思想，可以做到 $\Theta(
 
 ## 模板代码
 
-[ST 表模板题](https://www.luogu.com.cn/problem/P3865)
+进入 [ST 表模板题](https://www.luogu.com.cn/problem/P3865)
 
 ### C 风格模板
 
@@ -68,7 +68,7 @@ ST 表基于 [倍增](../basic/binary-lifting.md) 思想，可以做到 $\Theta(
 
 1.  输入输出数据一般很多，建议开启输入输出优化。
 
-2.  每次用 [std::log](https://en.cppreference.com/w/cpp/numeric/math/log) 重新计算 log 函数值并不值得，建议进行如下的预处理：
+2.  不值得每次用 [std::log](https://en.cppreference.com/w/cpp/numeric/math/log) 重新计算 log 函数值并，建议进行如下的预处理：
 
 $$
 \begin{cases}
